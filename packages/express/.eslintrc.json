@@ -1,0 +1,21 @@
+{
+    "env": {
+      "browser": true,
+      "es6":  true,
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "redtn-react"
+    ],
+    "parser": "babel-eslint",
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "16.8.6"
+      }
+    },
+    "rules": {
+        "react/display-name": 0
+    }
+}
